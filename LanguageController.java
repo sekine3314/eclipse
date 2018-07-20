@@ -3,7 +3,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.ui.Mode1;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,7 +22,7 @@ public class LanguageController {
     public String index(Model model) {
         // ラジオボタンの選択肢
         Map<String, String> languageMap = new LinkedHashMap<String, String>();
-        languageMap.put("山田", "山田");
+        languageMap.put("関根", "関根");
         languageMap.put("佐藤", "佐藤");
         languageMap.put("小島", "小島");
 
